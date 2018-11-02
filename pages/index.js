@@ -12,28 +12,36 @@ import Typography from '@material-ui/core/Typography';
 import Layout from '../components/Layout';
 
 const styles = theme => ({
-  card: { height: 460 },
-  gif: { height: 345 }
+  card: { height: 460 }
 });
 
 const Index = (props) => {
     return (
       <Layout>
         <Grid container direction="row" justify="center" alignItems="center" spacing={16}>
-          <Grid item xs={6}>
+          <Grid item xs={3}>
             <Card className={props.classes.card}>
               <CardActionArea>
-                <CardMedia
-                  className={props.classes.gif}
-                  image="https://media.giphy.com/media/1dBJg6SYP0na8/giphy.gif"
-                  title="So gay"
-                />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
-                    Apoio a pessoas LGBTQ+
+                    Quem somos?
                   </Typography>
                   <Typography component="p">
-                    Em breve
+                    Somos um site...
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+          </Grid>
+          <Grid item xs={3}>
+            <Card className={props.classes.card}>
+              <CardActionArea>
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="h2">
+                    Como contribuir?
+                  </Typography>
+                  <Typography component="p">
+                    Você pode contribuir blablabla...
                   </Typography>
                 </CardContent>
               </CardActionArea>

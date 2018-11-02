@@ -7,20 +7,22 @@ import purple from '@material-ui/core/colors/purple';
 import red from '@material-ui/core/colors/red';
 import yellow from '@material-ui/core/colors/yellow';
 
+const colorTone = 500;
+
 const styles = theme => ({
   '@keyframes rainbow': {
-      '0%, 100%': { backgroundColor: red[300] },
-      '8.33%, 91.63%': { backgroundColor: orange[300] },
-      '16.66%, 83.3%': { backgroundColor: yellow[300] },
-      '24.99%, 74.97%': { backgroundColor: green[300] },
-      '33.32%, 66.64%': { backgroundColor: blue[300] },
-      '41.65%, 58.31%': { backgroundColor: indigo[300] },
-      '49.98%': { backgroundColor: purple[300] },
+      '0%': { backgroundColor: purple[colorTone] },
+      '14%': { backgroundColor: indigo[colorTone] },
+      '28%': { backgroundColor: blue[colorTone] },
+      '56%': { backgroundColor: green[colorTone] },
+      '70%': { backgroundColor: yellow[colorTone] },
+      '84%': { backgroundColor: orange[colorTone] },
+      '100%': { backgroundColor: red[colorTone] },
   },
   rainbow: {
     width: '100%',
     height: theme.spacing.unit,
-    animation: 'rainbow 10s forwards linear infinite'
+    animation: 'rainbow 35s forwards linear infinite'
   },
 });
 
