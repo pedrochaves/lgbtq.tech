@@ -17,5 +17,8 @@
     "build": "next build",
     "start": "next start",
     "export": "next build && next export"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.1.2"
   }
 }
