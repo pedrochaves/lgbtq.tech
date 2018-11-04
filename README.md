@@ -5,7 +5,7 @@ Repositório do site [lgbtq.tech](https://lgbtq.tech/), escrito em React usando 
 ## Desenvolvimento
 
 Em desenvolvimento, é necessário rodar o servidor do `next.js` para acessar
-e ter o live reload fácil. Antes de mais nada instale o Docker e o `docker-compose` na sua máquina seguindo [https://docs.docker.com/install/](este link).
+e ter o live reload fácil. Antes de mais nada instale o Docker e o `docker-compose` na sua máquina seguindo [este link](https://docs.docker.com/install/).
 
 Execute esses passos (será necessário o comando `make` instalado em sua máquina):
 
