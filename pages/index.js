@@ -41,7 +41,7 @@ const Index = (props) => {
                     Como contribuir?
                   </Typography>
                   <Typography component="p">
-                    Você pode contribuir blablabla...
+                    Você pode contribuir blablablable...
                   </Typography>
                 </CardContent>
               </CardActionArea>
